@@ -10,32 +10,110 @@
       href="https://img.icons8.com/?size=32&id=dxoYK8bxqiJr&format=png"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <style>
-        body {
-          background-color: #dbd5d5;
-          font-family: Arial;
-          text-align: left;
-        }
-        header {
-          color: rgb(255, 255, 255);
-          font-style: initial;
-          text-transform: capitalize;
-          text-align: center;
-          font-size: 20px;
-          padding: 10px;
-          background-color: #4095c7;
-        }
-        footer {
-          text-align: center;
-          background-color: #e6eef7;
-          padding: 10px;
-          font-size: 16px;
-        }
-        img {
-      display: block;
-      margin: 15px auto;
-      width: 40%;
-      box-shadow: 0px 4px 10px rgba(0,0,0,0.25);
+      #review {
+        background: #ffffff;
+        padding: 25px;
+        margin: 40px auto;
+        border-radius: 12px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+        width: 85%;
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        resize: vertical;
+      }
+
+      .checkbox-group {
+        margin-top: 10px;
+        font-size: 15px;
+      }
+
+      .btn-submit {
+        margin-top: 15px;
+        padding: 12px;
+        background-color: #007bff;
+        border: none;
+        color: white;
+        font-size: 18px;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 100%;
+        transition: 0.2s;
+      }
+
+      .btn-submit:hover {
+        background-color: #005fcc;
+      }
+
+      .review-stats {
+        margin-top: 30px;
+      }
+
+      .stats-grid {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+
+      .stat-item {
+        text-align: center;
+      }
+
+      .stat-number {
+        font-size: 30px;
+        font-weight: bold;
+        color: #007bff;
+      }
+
+      .stat-label {
+        font-size: 16px;
+        margin-top: 5px;
+      }
+
+      .stat-stars i {
+        color: #ffcc00;
+        margin-top: 6px;
+      }
+      body {
+        background-color: #fff9f9;
+        font-family: Arial;
+        text-align: left;
+      }
+      header {
+        color: rgb(255, 255, 255);
+        font-style: initial;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        background-color: #37b6ff;
+      }
+      footer {
+        text-align: center;
+        background-color: #e6eef7;
+        padding: 10px;
+        font-size: 16px;
+      }
+      img {
+        display: block;
+        margin: 15px auto;
+        width: 40%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+      }
     </style>
   </head>
   <body>
@@ -112,10 +190,59 @@
         khả năng hấp thu axit amin.
       </p>
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUmipTyqzKc34Mu1ftB8ps-H8Hog5Y1NVPsg&s"
+        src="https://truongthammylali.com/wp-content/uploads/2025/08/cho-co-bap-meme-1200x900.jpg"
         alt="thể dục"
       />
     </section>
+    <section id="ykien">
+      <h2>Bình luận</h2>
+
+      <div class="comment-box">
+        <textarea placeholder="Mời bạn để lại bình luận..." rows="4"></textarea>
+        <button class="btn-submit">Gửi bình luận</button>
+      </div>
+    </section>
+
+    <style>
+      #ykien {
+        background: #ffffff;
+        padding: 25px;
+        margin: 40px auto;
+        border-radius: 12px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        width: 85%;
+      }
+
+      #ykien h2 {
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+
+      .comment-box textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        resize: vertical;
+        font-size: 15px;
+      }
+
+      .btn-submit {
+        margin-top: 12px;
+        padding: 10px;
+        background-color: #1c7dd9;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      .btn-submit:hover {
+        background-color: #155fa6;
+      }
+    </style>
+
     <ul>
       <footer>
         <p>Trang web thực hiện bởi nhóm 2</p>
